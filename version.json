@@ -1,0 +1,16 @@
+{
+  "version": "V1.0.0",
+  "app": "Instituto Madre del Divino Pastor · Horario Escolar · DEMO NO OFICIAL",
+  "updated": "2026-11-24",
+  "status": "PRUEBA",
+  "cycle_year": 2027,
+  "languages": [
+    "es",
+    "en",
+    "pt",
+    "fr",
+    "de",
+    "it"
+  ],
+  "notes": "Primera versión de prueba. 12 cursos A/B y horarios ficticios. Banner/ícono referenciales; no representa al instituto ni cuenta con su aprobación."
+}
