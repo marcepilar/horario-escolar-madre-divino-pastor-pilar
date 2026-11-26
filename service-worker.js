@@ -1,7 +1,7 @@
 /* Instituto Madre del Divino Pastor — DEMO NO OFICIAL. No comparte caché con otros colegios. */
-const CACHE_NAME = 'marktech-horario-imdp-pilar-demo-v1.0.0';
+const CACHE_NAME = 'marktech-horario-imdp-pilar-demo-v1.0.1';
 const SHELL = [ './', './index.html','./manifest.webmanifest','./version.json',
-  './icon-192.png','./icon-512.png','./apple-touch-icon.png','./logotipo-madre-divino-pastor.png','./icon-maskable-512.png','./favicon-48.png', './qr-horario.png' ];
+  './icon-192.png','./icon-512.png','./apple-touch-icon.png','./banner-madre-divino-pastor-v101.png','./icon-maskable-512.png','./favicon-48.png', './qr-horario.png' ];
 self.addEventListener('install', event=>{
   event.waitUntil(caches.open(CACHE_NAME).then(cache=>cache.addAll(SHELL)));
 });

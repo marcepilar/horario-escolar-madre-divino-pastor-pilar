@@ -1,4 +1,4 @@
-# Instituto Madre del Divino Pastor · Pilar — Horario Escolar V1.0.0 (DEMO DE PRUEBA)
+# Instituto Madre del Divino Pastor · Pilar — Horario Escolar V1.0.1 (DEMO DE PRUEBA)
 
 Desarrollo independiente de MARK-TECH SOFTWARE. **NO OFICIAL**, sin vinculación institucional. Los 12 cursos (1.º–6.º A/B), las materias, los turnos y los horarios son inventados para demostrar la PWA; ciclo 2027.
 
@@ -17,3 +17,5 @@ Incluye seis idiomas (es/en/pt/fr/de/it), temas Dark Blue/Claro/Dark, selector d
 **Nota sobre vista interactiva:** en algunos celulares la app de archivos abre HTML como texto. En ese caso utilizar GitHub Pages por HTTPS o abrir el HTML con un navegador que admita archivos locales.
 
 **Estado:** versión DE PRUEBA y SIN PUBLICAR. El QR incorporado al ZIP antes del despliegue es ilustrativo; cuando esté en GitHub Pages, la ventana Compartir genera un QR con la dirección publicada si hay conexión.
+
+Actualización V1.0.1: banner verde compacto, ancho completo, y aviso DEMO integrado traducible. Sin cambio de horarios ni funciones.

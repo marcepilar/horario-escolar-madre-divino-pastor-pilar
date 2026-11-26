@@ -1117,6 +1117,36 @@ body.theme-light .header-year{color:#205A87!important}
 .school-brand .school-brand-card .school-ident small {color:#3E7067!important;}
 body.theme-light .school-brand .school-brand-card {background:#FBF9F5!important;}
 
+
+/* IMDP V1.0.1 — encabezado compacto a sangre completa, aviso DEMO traducible. */
+.school-brand{margin-bottom:7px!important;padding:0!important;border:0!important;background:transparent!important;}
+.school-brand .school-brand-card{
+  box-sizing:border-box!important;display:flex!important;flex-direction:column!important;
+  width:100%!important;height:auto!important;min-height:0!important;
+  padding:0!important;gap:0!important;overflow:hidden!important;
+  border:1px solid #BDA15A!important;border-radius:18px!important;
+  background:#071F1B!important;box-shadow:0 4px 16px rgba(0,0,0,.22)!important;
+}
+.school-brand .school-brand-main{width:100%!important;height:auto!important;min-height:0!important;
+  display:block!important;flex:none!important;padding:0!important;overflow:hidden!important;}
+.school-brand .school-brand-card .school-brand-main img.school-brand-logo{
+  width:100%!important;height:auto!important;max-height:none!important;min-height:0!important;
+  display:block!important;object-fit:fill!important;aspect-ratio:3/1!important;
+  margin:0!important;padding:0!important;border:0!important;box-shadow:none!important;
+}
+.school-brand .school-brand-card .school-ident{
+  display:flex!important;justify-content:center!important;align-items:center!important;
+  background:linear-gradient(90deg,#061d19,#123a2d,#061d19)!important;
+  padding:5px 5px 6px!important;min-height:22px!important;flex:none!important;
+}
+.school-brand .school-brand-card .school-ident small{
+  color:#F1DEAF!important;font-weight:750!important;font-size:clamp(8px,2.35vw,10px)!important;
+  letter-spacing:0!important;white-space:nowrap!important;line-height:1.15!important;
+}
+@media(max-width:350px){.school-brand .school-brand-card{height:auto!important;padding:0!important;}
+.school-brand .school-brand-card .school-ident{padding:4px!important;}}
+@media(max-height:660px){.school-brand .school-brand-card{height:auto!important;padding:0!important;}
+.school-brand .school-brand-card .school-brand-main img.school-brand-logo{max-height:none!important;}}
 </style>
 </head>
 <body class="theme-blue">
@@ -1124,7 +1154,7 @@ body.theme-light .school-brand .school-brand-card {background:#FBF9F5!important;
  <div class="school-brand" aria-label="Vista de demostración no oficial para Instituto Madre del Divino Pastor">
   <div class="school-brand-card">
     <div class="school-brand-main">
-      <img class="school-brand-logo" src="./logotipo-madre-divino-pastor.png" alt="Identidad visual referencial IMDP para la demostración; no es el escudo oficial" width="1600" height="410" decoding="async">
+      <img class="school-brand-logo" src="./banner-madre-divino-pastor-v101.png" alt="Banner referencial del Instituto Madre del Divino Pastor; no es identidad oficial" width="1800" height="600" decoding="async">
     </div>
     <div class="school-ident"><small>DEMO NO OFICIAL · HORARIOS FICTICIOS</small></div>
   </div>
@@ -1256,7 +1286,7 @@ const themes=['theme-blue','theme-light','theme-dark'];
 // Cambiar SCHOOL_CYCLE_YEAR al incorporar los horarios del nuevo ciclo lectivo.
 // No depende del 1 de enero ni de la fecha del dispositivo.
 const SCHOOL_CYCLE_YEAR=2027;
-const APP_VERSION='V1.0.0';
+const APP_VERSION='V1.0.1';
 $('helpAppVersion').textContent=APP_VERSION;
 const themeIcons={
   'theme-blue': "<span class=\"theme-icon\" aria-hidden=\"true\"><svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\" focusable=\"false\"><defs><linearGradient id=\"waningBlue\" x1=\"0\" y1=\"0\" x2=\"1\" y2=\"1\"><stop stop-color=\"#D0F1FF\"/><stop offset=\".45\" stop-color=\"#81C8FF\"/><stop offset=\"1\" stop-color=\"#3087EA\"/></linearGradient></defs><path transform=\"rotate(11 12 12)\" d=\"M12 2.3 A9.7 9.7 0 0 0 12 21.7 C5.05 17.25 5.05 6.75 12 2.3Z\" fill=\"url(#waningBlue)\" stroke=\"#A9DCFF\" stroke-width=\".36\" stroke-linejoin=\"round\"/></svg></span>",
